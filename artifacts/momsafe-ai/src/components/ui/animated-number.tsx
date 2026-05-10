@@ -33,5 +33,5 @@ export function AnimatedNumber({
     return <span className={className}>{format(0)}</span>;
   }
 
-  return <motion.span className={className}>{display}</motion.span>;
+  return <motion.span className={className}>{display as any}</motion.span>;
 }

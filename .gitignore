@@ -47,3 +47,27 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets.*
+*secret*.json
+serviceAccountKey*.json
+firebase-adminsdk*.json
+
+# Common credential files
+**/credentials.json
+**/token.json
+**/.npmrc
+**/.pypirc
+**/.aws/credentials
+**/.aws/config

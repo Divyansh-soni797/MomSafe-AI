@@ -123,25 +123,6 @@ export const dailyLogs = {
   ],
 };
 
-export const predictions = {
-  riskForecast: [
-    ...Array.from({ length: 14 }, (_, i) => ({ day: `Mar ${6 + i}`, risk: 25 + Math.round(Math.sin(i / 3) * 5 + Math.random() * 3), projected: false })),
-    ...Array.from({ length: 7 }, (_, i) => ({ day: `Mar ${20 + i}`, risk: 28 + i * 1.5 + Math.random() * 2, projected: true })),
-  ],
-  vitalsForecasts: [
-    { vital: "Blood Pressure", current: "118/76", forecast: "122/80", trend: "up", risk: "Watch", confidence: 88 },
-    { vital: "Heart Rate", current: "82 bpm", forecast: "84 bpm", trend: "stable", risk: "Normal", confidence: 92 },
-    { vital: "Weight", current: "68.2 kg", forecast: "69.1 kg", trend: "up", risk: "Monitor", confidence: 85 },
-  ],
-  scenarios: [
-    { label: "If sleep drops to <6h", impact: "+18% risk" },
-    { label: "If hydration hits 2.5L", impact: "-12% risk" },
-    { label: "If BP increases by 10", impact: "+35% risk" },
-  ],
-  aiExplanation: "Based on W32 patterns, blood pressure shows a slight upward trend expected to reach 122mmHg by W34. This is physiologically normal but warrants attention. Preventive hydration and rest protocols are recommended.",
-  confidence: 92,
-};
-
 export const analyticsData = {
   weeklyRisk: [
     { week: "W28", risk: 22 }, { week: "W29", risk: 24 },
