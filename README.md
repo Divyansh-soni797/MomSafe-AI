@@ -1,4 +1,4 @@
-# MomSafe AI
+# MomSafe AI - Pregnancy Support Platform
 
 Pregnancy support application with a Vite frontend workspace and Supabase-backed features.
 
@@ -15,6 +15,13 @@ Pregnancy support application with a Vite frontend workspace and Supabase-backed
    - `pnpm run dev`
 5. Open:
    - `http://localhost:3000/`
+  
+## Features
+- AI-powered pregnancy guidance
+- Secure Supabase backend
+- Responsive modern UI
+- Real-time interaction
+- Clean Vite architecture
 
 ## Security Notes
 
